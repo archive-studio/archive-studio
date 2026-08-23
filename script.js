@@ -2,24 +2,24 @@ const data = {
   tshirts: {
     label: "T-SHIRTS",
     images: [
-["./tshirt-01.jpg","Endless / Find Your Self"],
-["./tshirt-02.jpg","Bad Habit / Midnight Lust"],
-["./tshirt-03.jpg","Saint"],
-["./tshirt-04.jpg","Urban Anxiety"],
-["./tshirt-05.jpg","Smoke Makes You Better Rich"]
+      ["/Archive-Studio/tshirt-01.jpg", "Endless / Find Your Self"],
+      ["/Archive-Studio/tshirt-02.jpg", "Bad Habit / Midnight Lust"],
+      ["/Archive-Studio/tshirt-03.jpg", "Saint"],
+      ["/Archive-Studio/tshirt-04.jpg", "Urban Anxiety"],
+      ["/Archive-Studio/tshirt-05.jpg", "Smoke Makes You Better Rich"]
     ]
   },
+
   pants: {
     label: "PANTS",
     images: [
-["./pants-01.jpg","Anxiety Denim Shorts"],
-["./pants-02.jpg","Red / Devotional"],
-["./pants-03.jpg","Saint Denim"],
-["./pants-04.jpg","Endless / Find Your Self"]
+      ["/Archive-Studio/pants-01.jpg", "Anxiety Denim Shorts"],
+      ["/Archive-Studio/pants-02.jpg", "Red / Devotional"],
+      ["/Archive-Studio/pants-03.jpg", "Saint Denim"],
+      ["/Archive-Studio/pants-04.jpg", "Endless / Find Your Self"]
     ]
   }
 };
-
 const gallery = document.getElementById("gallery");
 const galleryLabel = document.getElementById("galleryLabel");
 const galleryCount = document.getElementById("galleryCount");
