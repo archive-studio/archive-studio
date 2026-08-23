@@ -12,7 +12,7 @@ const data = {
   pants: {
     label: "PANTS",
     images: [
-      ["pants-01.jpg","Anxiety Denim Shorts"],
+["./pants-01.jpg","Anxiety Denim Shorts"],
 ["./pants-02.jpg","Red / Devotional"],
 ["./pants-03.jpg","Saint Denim"],
 ["./pants-04.jpg","Endless / Find Your Self"]
