@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="ARCHIVE STUDIO — Clothing design portfolio." />
+  <title>ARCHIVE STUDIO — Clothing Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="curve curve-a"></div>
+  <div class="curve curve-b"></div>
+  <div class="curve curve-c"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="ARCHIVE STUDIO home">ARCHIVE <span>STUDIO</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#studio">Studio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="ig-mini" href="https://www.instagram.com/archv.studio_/" target="_blank" rel="noopener">Instagram ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-kicker">CLOTHING DESIGN / VISUAL ARCHIVE</div>
+      <h1>ARCHIVE<br><em>STUDIO.</em></h1>
+      <div class="hero-bottom">
+        <p>Independent clothing design studio focused on graphic-led garments, distressed details and contemporary streetwear direction.</p>
+        <a class="scroll-link" href="#work">Explore work <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section-head">
+        <span>01 — SELECTED WORK</span>
+        <span>2026 / PRESENT</span>
+      </div>
+
+      <div class="category-grid">
+        <button class="category-card active" data-category="tshirts">
+          <div class="category-image">
+            <img src="assets/tshirt-01.jpg" alt="T-shirt design selection" />
+            <div class="category-index">01</div>
+          </div>
+          <div class="category-meta">
+            <h2>T-Shirts</h2>
+            <span>05 pieces</span>
+          </div>
+          <div class="category-arrow">↗</div>
+        </button>
+
+        <button class="category-card" data-category="pants">
+          <div class="category-image">
+            <img src="assets/pants-01.jpg" alt="Pants design selection" />
+            <div class="category-index">02</div>
+          </div>
+          <div class="category-meta">
+            <h2>Pants</h2>
+            <span>04 pieces</span>
+          </div>
+          <div class="category-arrow">↗</div>
+        </button>
+      </div>
+
+      <div class="gallery-wrap" id="galleryWrap">
+        <div class="gallery-title">
+          <span id="galleryLabel">T-SHIRTS</span>
+          <span id="galleryCount">05 / 05</span>
+        </div>
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <section class="studio" id="studio">
+      <div class="section-head">
+        <span>02 — STUDIO</span>
+        <span>ABOUT THE WORK</span>
+      </div>
+      <div class="studio-grid">
+        <div class="studio-big">DESIGN<br><em>WITHOUT</em><br>NOISE.</div>
+        <div class="studio-copy">
+          <p>ARCHIVE STUDIO is a visual clothing design portfolio built around strong silhouettes, graphic composition and an imperfect finish.</p>
+          <p>The work explores streetwear, vintage references, distressed treatments, typography and image-driven storytelling — developed as original design concepts for modern garments.</p>
+          <div class="studio-line"><span>BASED IN</span><strong>INDONESIA</strong></div>
+          <div class="studio-line"><span>FOCUS</span><strong>GRAPHIC / CLOTHING</strong></div>
+          <div class="studio-line"><span>STATUS</span><strong>INDEPENDENT</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-head">
+        <span>03 — CONTACT</span>
+        <span>LET'S CREATE</span>
+      </div>
+      <div class="contact-main">
+        <p>For clothing design inquiries, collaborations, commissions or creative work:</p>
+        <a class="email-link" href="mailto:rahmannajibbb@gmail.com">rahmannajibbb@gmail.com <span>↗</span></a>
+        <div class="contact-links">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rahmannajibbb@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+          <a href="https://www.instagram.com/archv.studio_/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 ARCHIVE STUDIO</span>
+    <span>CLOTHING DESIGN PORTFOLIO</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <div class="lightbox-inner">
+      <span id="lightboxNumber">01</span>
+      <img id="lightboxImage" src="" alt="" />
+      <div id="lightboxCaption">ARCHIVE STUDIO</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
