@@ -2,20 +2,20 @@ const data = {
   tshirts: {
     label: "T-SHIRTS",
     images: [
-      ["assets/tshirt-01.jpg","Endless / Find Your Self"],
-      ["assets/tshirt-02.jpg","Bad Habit / Midnight Lust"],
-      ["assets/tshirt-03.jpg","Saint"],
-      ["assets/tshirt-04.jpg","Urban Anxiety"],
-      ["assets/tshirt-05.jpg","Smoke Makes You Better Rich"]
+     ["tshirt-01.jpg","Endless / Find Your Self"],
+["tshirt-02.jpg","Bad Habit / Midnight Lust"],
+["tshirt-03.jpg","Saint"],
+["tshirt-04.jpg","Urban Anxiety"],
+["tshirt-05.jpg","Smoke Makes You Better Rich"]
     ]
   },
   pants: {
     label: "PANTS",
     images: [
-      ["assets/pants-01.jpg","Anxiety Denim Shorts"],
-      ["assets/pants-02.jpg","Red / Devotional"],
-      ["assets/pants-03.jpg","Saint Denim"],
-      ["assets/pants-04.jpg","Endless / Find Your Self"]
+      ["pants-01.jpg","Anxiety Denim Shorts"],
+["pants-02.jpg","Red / Devotional"],
+["pants-03.jpg","Saint Denim"],
+["pants-04.jpg","Endless / Find Your Self"]
     ]
   }
 };
